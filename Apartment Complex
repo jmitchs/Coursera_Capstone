@@ -1,0 +1,39 @@
+Coursera Capstone
+IBM Data Science
+Building a New Apartment Complex in Indianapolis, Indiana
+
+
+Introduction
+While many things have changed for real estate developers in regards to apartment complexes over the years there are some things that
+have not. One of the things that has not changed in the fact that location is everything. Developers want to make sure the buildings
+they build are going to be in high demaind for years to come. With Indianapolis being such a large city with such a wide-ranging
+demographic it's important to know who your target renter is. Do we want a building closer to a university in order to attract students
+year after year? Or closer to downtown in order to attract young business professionals with a consistent income?
+
+Business Problem
+The main objective for this capstone project is to analyze and determine where the best locations is in the city of Indianapolis for
+a new apartment building. Using data science methodology as well as machine learning techniques I have learned throughout this course
+my mission is to provide an answer to the following business question:
+
+In the city of Indianapolis, Indiana where would I recommend building an apartment complex if a real estate developer is needing
+to know?
+
+
+Data Being Used
+1. List of neighborhoods in Indianapolis.
+2. Latitude and Longitude coordinates for the respective neighborhoods which si required in order to obtain venue data
+and plot any necessary maps.
+3. Data related to other apartment complexes and where they are located throughout the city.
+
+The data regarding the neighborhoods in Indianapolis will be pulled from the following URL:
+https://en.wikipedia.org/wiki/List_of_Indianapolis_neighborhoods. This site lists the neighborhoods in Indianapolis.
+As with the previous cases regarding NYC and Toronto I will be utilizing Python requests and the BeautifulSoup
+packages as well as the Geocoder to obtain the latitude and longitude coordinates neeeded.
+
+I will the utilize the Foursquare API which we used in the other cases as well in order to obtain the necessary venue
+data in order to complete the case. Currently, Foursquare has one of the largest databases available with over
+105 million places and is being used by more than 125,000 developers. As with the previous cases I will be able to
+utlize some of the skills I've learned thorughout this course including web scraping, data cleaning/wrangling, clustering,
+mapping, working with the Foursqaure API and more.
+
+
